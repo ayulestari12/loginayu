@@ -8,6 +8,7 @@
                 <div class="card-header">Dashboard</div>
 
                 <div class="card-body">
+                    <a href="{!! route('kategori_artikel.create')!!}" class="btn btn-primary">Tambah Data</a>
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
